@@ -1,0 +1,7 @@
+*{
+  margin: 0;
+}
+.main-page{
+  display: flex;
+  margin-top: 1em;
+}

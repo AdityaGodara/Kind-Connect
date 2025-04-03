@@ -1,0 +1,61 @@
+.comm-main-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.community-item {
+    background-color: white;
+    width: 30%;
+}
+
+.chat-options button{
+    padding: 10px;
+    border: 2px solid #152a3d;
+    width: 7rem;
+    cursor: pointer;
+    color: #152a3d;
+}
+
+.chat-options button:first-child{
+    border-radius: 20px 0 0 20px;
+}
+.chat-options button:nth-child(2){
+    border-radius: 0 20px 20px 0;
+}
+
+.comm-info {
+    padding: 10px;
+}
+
+.comm-info h1 {
+    font-family: "STIX Two Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.moderator-badge{
+    background-color: rgba(254, 216, 0, 0.814);
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.myComm-img {
+    width: 100%;
+}
+
+.community-list {
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .comm-main-page {
+        flex-direction: column;
+    }
+
+    .community-item{
+        width: 100%;
+    }
+}

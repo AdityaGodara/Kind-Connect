@@ -1,0 +1,30 @@
+.your-comm-but, .all-chat-but{
+    border: none;
+    background-color: #152a3d1e;
+    color: #152a3d;
+    padding: 15px;
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.your-comm-but:hover{
+    background-color: #152a3d2c;
+}
+
+.all-chat-but:hover{
+    background-color: #152a3d2c;
+}
+
+.comm-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 786px) {
+    .comm-header{
+        flex-direction: column;
+        align-items: left;
+    }
+}

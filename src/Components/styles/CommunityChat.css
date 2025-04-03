@@ -1,0 +1,72 @@
+.community-chat{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    width: 40rem;
+}
+
+.chat-messages{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+    height: 80vh;
+    overflow-y: auto; /* Enable vertical scrolling */
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #152a3d #f1f1f1; /* For Firefox */
+}
+
+/* Styling the scrollbar for Webkit browsers (Chrome, Safari, etc.) */
+.chat-messages::-webkit-scrollbar {
+    width: 8px;
+}
+
+.chat-messages::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+    background: #152a3d;
+    border-radius: 10px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb:hover {
+    background: #1f3e5a;
+}
+
+.message-form{
+    display: flex;
+    flex-direction: row;
+}
+
+.message-form input{
+    width: 100%;
+    border: none;
+    background-color: #152a3d10;
+    padding: 20px;
+    font-size: 1rem;
+    border-radius: 0 0 0 20px;
+    transition-duration: .3s;
+}
+
+.message-form input:focus{
+    outline: none;
+    box-shadow: 0 2px 2px gray;
+}
+
+.message-form button{
+    width: 7rem;
+    border: none;
+    background-color: #152a3d;
+    color: white;
+    font-size: 1rem;
+    border-radius: 0 0 20px 0;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+
+@media screen and (max-width: 768px) {
+    .community-chat{
+        width: 20rem;
+    }
+}

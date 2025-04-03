@@ -1,0 +1,115 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.eventPage-events{
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    padding: 1rem 0;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.eventPage-events::-webkit-scrollbar {
+    display: none;
+}
+
+.main-event-card {
+    min-width: 280px; /* Ensure cards don't shrink too small */
+    flex: 0 0 auto; /* Prevent cards from growing/shrinking */
+}
+
+.eventPage-head-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.eventPage-title {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.3rem;
+}
+
+.eventPage-date-time{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: .8rem;
+}
+
+.eventPage-organizer{
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: .8rem;
+}
+
+.eventPage-applyBtn{
+    margin-top: 2em;
+    background-color: #1f8cf2;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.no-event-found{
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.search-bar{
+    display: flex;
+    flex-direction: row;
+}
+
+.search-bar input{
+    background-color: white;
+    border-left: 2px solid #152a3d;
+    border-top: 2px solid #152a3d;
+    border-bottom: 2px solid #152a3d;
+    border-right: none;
+    padding: 15px;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+}
+
+.search-bar button{
+    background-color: #1f3c57;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 8rem;
+    align-items: center;
+    border-radius: 0 20px 20px 0;
+    transition-duration: .1s;
+}
+.search-bar button:hover{
+    background-color: #152a3d;
+}
+.search-bar input:focus{
+    outline: none;
+}
+
+@media screen and (max-width: 768px){
+    .eventPage-events{
+        gap: 1rem;
+    }
+}

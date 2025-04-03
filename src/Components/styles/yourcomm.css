@@ -1,0 +1,42 @@
+.create-comm-btn{
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #152a3d;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.your-comm-cont{
+    padding: 20px;
+    width: 100%;
+}
+
+.comm-list-cont{
+    width: 100%;
+}
+
+.btn-grp1{
+    display: flex;
+    gap: 1rem;
+}
+.community-list{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.community-item{
+    padding: 20px;
+    width: 100%;
+    cursor: pointer;
+    transition-duration: .3s;
+    border-radius: 6px;
+}
+
+.community-item:hover{
+    box-shadow: 5px 5px 0 #467198;
+}

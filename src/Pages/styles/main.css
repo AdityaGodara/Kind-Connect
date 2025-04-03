@@ -1,0 +1,10 @@
+.main-container {
+    position: fixed;
+    right: 0;
+    top: 60px; 
+    height: calc(100vh - 60px);
+    width: calc(100% - 250px);
+    padding: 2em;
+    overflow-y: auto;
+    box-sizing: border-box;
+}

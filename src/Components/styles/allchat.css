@@ -1,0 +1,123 @@
+.main-sec1 {
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.message-area {
+    background-color: white;
+    width: auto;
+    height: 50vh;
+    border-radius: 20px 20px 0 0;
+    padding: 20px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between messages */
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #152a3d #f1f1f1; /* For Firefox */
+}
+
+/* Webkit (Chrome, Safari) scrollbar styling */
+.message-area::-webkit-scrollbar {
+    width: 8px;
+}
+
+.message-area::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.message-area::-webkit-scrollbar-thumb {
+    background: #152a3d;
+    border-radius: 10px;
+}
+
+.chatRoom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.txt-send-grp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.txt-send-grp input {
+    width: 100%;
+    border: none;
+    background-color: #152a3d10;
+    padding: 20px;
+    font-size: 1rem;
+    border-radius: 0 0 0 20px;
+    transition-duration: .3s;
+}
+
+.txt-send-grp input:focus {
+    outline: none;
+    box-shadow: 0 2px 2px gray;
+}
+
+.txt-send-grp button {
+    width: 7rem;
+    border: none;
+    background-color: #152a3d;
+    color: white;
+    font-size: 1rem;
+    border-radius: 0 0 20px 0;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+
+.message-sent {
+    background-color: #152a3d;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: .9rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-bottom: 10px;
+    max-width: 70%;
+}
+
+.message-recieved {
+    color: black;
+    border-radius: 20px;
+    font-size: .9rem;
+    width: fit-content;
+    margin-right: auto;
+    max-width: 70%;
+}
+
+.scroll-bottom-btn{
+    background-color: #152a3d;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    width: fit-content;
+    margin-top: 20px;
+    float: right;
+}
+
+.sendername-sent{
+    display: none;
+}
+
+.sendername-recieved{
+    font-weight: 600;
+}
+
+.message-link {
+    color: #0088cc; 
+    text-decoration: underline;
+    word-break: break-all;
+  }
+  
+  .message-sent .message-link {
+    color: #a0d8ff; /* Lighter color for links in sent messages */
+  }

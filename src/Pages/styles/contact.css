@@ -1,0 +1,15 @@
+.cont-content{
+    font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.cont-social{
+    padding: 1em;
+    display: flex;
+    gap: 2rem;
+}
+.cont-ic{
+    font-size: 1.5em;
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.main-sec1 h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: #152a3d;
+    font-family: "League Spartan", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}

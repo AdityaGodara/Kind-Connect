@@ -1,0 +1,129 @@
+.search-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+
+.search-container input {
+    background-color: white;
+    border-left: 2px solid #152a3d;
+    border-top: 2px solid #152a3d;
+    border-bottom: 2px solid #152a3d;
+    border-right: none;
+    padding: 15px;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+}
+
+.search-container button {
+    background-color: #1f3c57;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 8rem;
+    align-items: center;
+    border-radius: 0 20px 20px 0;
+    transition-duration: .1s;
+}
+
+.search-container input:focus {
+    outline: none;
+}
+
+.communities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.community-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    background-color: white;
+}
+
+.community-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .community-image {
+    height: 150px;
+    overflow: hidden;
+  }
+  
+  .community-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .community-info{
+    padding: 10px;
+  }
+
+  .community-info h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+
+  .community-description {
+    color: #666;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .community-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #777;
+  }
+
+  .community-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .tag {
+    background-color: #f0f0f0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #555;
+  }
+  
+  .more-tags {
+    font-size: 12px;
+    color: #777;
+  }
+
+  .loading, .error, .no-results {
+    text-align: center;
+    padding: 40px;
+    color: #666;
+  }
+  
+  .error {
+    color: #e74c3c;
+  }
+
+  @media (max-width: 768px) {
+    .communities-grid {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .communities-grid {
+      grid-template-columns: 1fr;
+    }
+  }
