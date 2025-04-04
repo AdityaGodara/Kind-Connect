@@ -1,8 +1,27 @@
-# React + Vite
+# Kind Connect - An Event Volunteering Platform
+Visit: https://kind-connect-adeac.web.app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+KindConnect is a community platform in which users can take part in multiple events and connect with each other through communities.
 
-Currently, two official plugins are available:
+<h3>Tech Used: </h3>
+<ul>
+  <li>Vite+ReactJS</li>
+  <li>Firestore Database</li>
+  <li>Firebase Auth</li>
+</ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h3>Features: </h3>
+
+1. Reset password works!
+2. Can create community
+3. Can join multiple communities but can create only one
+4. Can join multiple events.
+5. Event filtering using the matching skills and location of user.
+
+
+<h3>Upcoming Features: </h3>
+
+1. Improved home page with more elements.
+2. History of events participated.
+3. Community owners can create events.
+4. and many more...
