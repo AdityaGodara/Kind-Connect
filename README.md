@@ -5,9 +5,10 @@ KindConnect is a community platform in which users can take part in multiple eve
 
 <h3>Tech Used: </h3>
 <ul>
-  <li>Vite+ReactJS</li>
-  <li>Firestore Database</li>
-  <li>Firebase Auth</li>
+  <li>![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)</li>
+  <li>![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)</li>
+  <li>![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) Firestore Database</li>
+  <li>![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) Auth</li>
 </ul>
 
 <h3>Features: </h3>
