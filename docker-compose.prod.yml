@@ -1,9 +1,9 @@
 services:
   frontend:
-    #image: kind-connect-prod
-    build:
-      context: .
-      dockerfile: Dockerfile.prod
+    image: 264212885938.dkr.ecr.ap-south-1.amazonaws.com/kind-connect:latest
+    #build:
+      #context: .
+      #dockerfile: Dockerfile.prod
     container_name: kind-connect-prod
 
     restart: unless-stopped
