@@ -13,7 +13,7 @@ function Navbar({ toggleSidenav }) {
                     className='menu-icon'
                     onClick={toggleSidenav}
                 />
-                <a href="/" className='title'><h1 >KindConnect</h1></a>
+                <a href="/" className='title'><h1 >KindConnect 2025</h1></a>
             </div>
             <div className='util_sec'>
                 <span className='foot-cont'>

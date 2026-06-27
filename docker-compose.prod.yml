@@ -1,0 +1,11 @@
+services:
+  frontend:
+    image: kind-connect-prod
+    container_name: kind-connect-prod
+
+    restart: unless-stopped
+
+    ports:
+      - 80:80
+
+  
